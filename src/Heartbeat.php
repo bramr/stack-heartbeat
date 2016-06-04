@@ -15,9 +15,9 @@ class Heartbeat implements HttpKernelInterface
     protected $route;
 
     /**
-     * @param mixed HttpKernelInterface $app
+     * @param HttpKernelInterface $app
      * @param string $route = '/heartbeat.check'
-     * @param mixed callable $handler = null
+     * @param callable|null $handler = null
      */
     public function __construct(HttpKernelInterface $app, $route = '/heartbeat.check', callable $handler = null)
     {
@@ -27,7 +27,7 @@ class Heartbeat implements HttpKernelInterface
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      **/
     public function handle(Request $request, $type = self::MASTER_REQUEST, $catch = true)
     {
