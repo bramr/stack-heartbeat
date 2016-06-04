@@ -2,6 +2,8 @@
 
 A simple [Stack](http://stackphp.com) middleware which adds a route to your application to respond to heartbeat requests.
 
+[![Build Status](https://travis-ci.org/bramr/stack-heartbeat.svg?branch=master)](https://travis-ci.org/bramr/stack-heartbeat) [![Code Coverage](https://scrutinizer-ci.com/g/bramr/stack-heartbeat/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bramr/stack-heartbeat/?branch=master)
+
 ## Installation
 
 The easiest way to install stack-heartbeat is through [Composer](https://getcomposer.org).
